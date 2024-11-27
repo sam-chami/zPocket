@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "linuxpocket")(type "KiCad")(uri "${KIPRJMOD}/linuxpocket.kicad_sym")(options "")(descr ""))
+  (lib (name "CM4IO")(type "KiCad")(uri "/home/samuel/Downloads/CM4IO-KiCAD/CM4IO.kicad_sym")(options "")(descr ""))
+)

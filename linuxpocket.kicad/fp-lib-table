@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "linuxpocket")(type "KiCad")(uri "${KIPRJMOD}/linuxpocket.pretty")(options "")(descr ""))
+  (lib (name "linuxpocket.3dshapes")(type "KiCad")(uri "${KIPRJMOD}/linuxpocket.3dshapes")(options "")(descr ""))
+)

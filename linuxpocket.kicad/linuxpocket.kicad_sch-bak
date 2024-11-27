@@ -1,0 +1,250 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "de3771bf-b13a-459d-a957-6ff90f7da387")
+	(paper "A4")
+	(title_block
+		(title "Overview")
+		(date "2024-10-19")
+		(company "xamuel.xyz")
+	)
+	(lib_symbols)
+	(sheet
+		(at 85.09 30.48)
+		(size 30.48 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "02b78b38-5adb-4552-99bd-63b68b90f703")
+		(property "Sheetname" "Mini PCI-e"
+			(at 85.09 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "minipcie.kicad_sch"
+			(at 85.09 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 30.48)
+		(size 44.45 49.53)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "157d7587-4674-47d2-b2e3-79ed693e51a7")
+		(property "Sheetname" "GPIO"
+			(at 139.7 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "gpio.kicad_sch"
+			(at 139.7 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BT_Disable" input
+			(at 139.7 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6eb5ebc4-1c67-498e-a1f2-1d5b160e6e58")
+		)
+		(pin "GLOBAL_EN" input
+			(at 139.7 69.85 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "382b22ed-a36f-40c9-8308-e3b0a4c9f964")
+		)
+		(pin "CAM_GPIO" input
+			(at 139.7 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "701edc21-9330-42cd-a62b-d7739ac7654e")
+		)
+		(pin "WIFI_Disable" input
+			(at 139.7 74.93 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5c8d3798-cbb9-4a03-8224-1ef9860037bd")
+		)
+		(pin "SIM_VPP" input
+			(at 139.7 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0738cee3-5683-410b-b13f-c6a8fd2050b6")
+		)
+		(pin "SIM_RST" input
+			(at 139.7 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8e8eb30b-3b68-40bf-87ca-66255c3bcb22")
+		)
+		(pin "SIM_IO" input
+			(at 139.7 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f2ae0f63-5858-46bb-9fac-252941c981b2")
+		)
+		(pin "SIM_CLK" input
+			(at 139.7 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b8d04667-aa2a-46b5-89af-502a82cc19d4")
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 96.52)
+		(size 44.45 49.53)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7405f2ae-4443-4e6f-9c19-b00d1eeb9817")
+		(property "Sheetname" "High Speed"
+			(at 139.7 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "highspeed.kicad_sch"
+			(at 139.7 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 81.28 96.52)
+		(size 39.37 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "748cdf11-7804-4e37-b79e-0f3d48b13d4c")
+		(property "Sheetname" "USB"
+			(at 81.28 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 81.28 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
