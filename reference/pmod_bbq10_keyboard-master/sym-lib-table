@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MCU_Microchip_SAMD")(type "Legacy")(uri "${KIPRJMOD}/library/MCU_Microchip_SAMD.lib")(options "")(descr ""))
+  (lib (name "Keyboard")(type "Legacy")(uri "${KIPRJMOD}/library/Keyboard.lib")(options "")(descr ""))
+  (lib (name "bbq10_keyboard-rescue")(type "KiCad")(uri "${KIPRJMOD}/bbq10_keyboard-rescue.kicad_sym")(options "")(descr ""))
+)

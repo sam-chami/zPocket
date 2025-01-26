@@ -3083,6 +3083,12 @@
 		(uuid "d90f245c-de81-48b9-b2c6-ab6f7b3b83e3")
 	)
 	(junction
+		(at 64.77 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9de833b-d583-4f07-b7fc-09d6aa42dc3c")
+	)
+	(junction
 		(at 109.22 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3137,15 +3143,6 @@
 	(no_connect
 		(at 252.73 113.03)
 		(uuid "7ed52a4d-bd5e-4694-964a-c3846ab8586d")
-	)
-	(bus_entry
-		(at 116.84 60.96)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89500ad3-d885-4900-89a5-a2e904df3b22")
 	)
 	(wire
 		(pts
@@ -3837,6 +3834,16 @@
 		)
 		(uuid "48431006-3f63-485a-9705-6367b229724e")
 	)
+	(wire
+		(pts
+			(xy 77.47 113.03) (xy 77.47 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b22464-1eed-46f7-a62d-c53606d5c8e2")
+	)
 	(polyline
 		(pts
 			(xy 151.13 80.01) (xy 203.2 80.01)
@@ -3906,6 +3913,16 @@
 			(type default)
 		)
 		(uuid "53bc7473-18cf-4417-8aed-f142221ef6fa")
+	)
+	(wire
+		(pts
+			(xy 67.31 113.03) (xy 64.77 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54ea9a2b-ff9e-4a9e-8e51-4991e66ef0d7")
 	)
 	(wire
 		(pts
@@ -4139,7 +4156,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 88.9) (xy 64.77 118.11)
+			(xy 64.77 88.9) (xy 64.77 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5029,6 +5046,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 113.03) (xy 64.77 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c73763b3-070e-4c0d-9b00-463c0fd8a5ea")
+	)
+	(wire
+		(pts
 			(xy 201.93 27.94) (xy 200.66 27.94)
 		)
 		(stroke
@@ -5509,6 +5536,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 113.03) (xy 77.47 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc63e5f6-cd27-4555-a370-1f98c5fc38a6")
+	)
+	(wire
+		(pts
 			(xy 189.23 106.68) (xy 189.23 107.95)
 		)
 		(stroke
@@ -5863,18 +5900,6 @@
 			(justify right)
 		)
 		(uuid "84bb5cb1-527e-4755-8c59-1c38147052df")
-	)
-	(hierarchical_label "3V3_{2A}"
-		(shape input)
-		(at 255.27 27.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "88a5f5ec-86c2-4d2e-9c94-42289cd77a51")
 	)
 	(hierarchical_label "CHARGE_CE"
 		(shape input)
@@ -8426,6 +8451,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 255.27 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82dc20ee-a262-4dc5-8c77-505143955ee8")
+		(property "Reference" "#PWR04"
+			(at 255.27 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 255.27 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 255.27 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45da1a86-a36c-4f57-b776-461def0a1029")
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/80740467-2537-4aa9-be41-8a76ad0fbd83"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 149.86 123.19 0)
 		(unit 1)
@@ -9113,6 +9204,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 77.47 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad6bb78f-fea4-47c8-a90c-db4bf4a10441")
+		(property "Reference" "#PWR047"
+			(at 77.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ae20342-ba7f-4df7-a832-733f56947821")
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/80740467-2537-4aa9-be41-8a76ad0fbd83"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 247.65 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9372,6 +9529,73 @@
 			(project "linuxpocket"
 				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/80740467-2537-4aa9-be41-8a76ad0fbd83"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 71.12 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b531c8b9-9956-4ecd-a1d1-1d8adf00dd46")
+		(property "Reference" "R21"
+			(at 71.12 115.824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 71.12 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4832980b-7a45-4709-b652-732ef951fc1d")
+		)
+		(pin "1"
+			(uuid "6a8445d8-d789-435a-b320-b986610b9b4c")
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/80740467-2537-4aa9-be41-8a76ad0fbd83"
+					(reference "R21")
 					(unit 1)
 				)
 			)

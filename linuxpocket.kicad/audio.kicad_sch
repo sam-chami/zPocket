@@ -1,0 +1,860 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5719e499-b9d6-41ba-a3dc-487487114e7a")
+	(paper "A4")
+	(title_block
+		(title "Audio")
+		(date "2024-12-08")
+		(rev "Prototype v0")
+		(company "xamuel.xyz")
+	)
+	(lib_symbols
+		(symbol "linuxpocket:TLV320AIC3101IRHBR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TLV320AIC3101IRHBR"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "linuxpocket:QFN-32_L5.0-W5.0-P0.50-TL-EP3.4"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Audio-A-D-Converter-ICs_TI_TLV320AIC3101IRHBR_TLV320AIC3101IRHBR_C58566.html"
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C58566"
+				(at 0 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLV320AIC3101IRHBR_0_1"
+				(rectangle
+					(start -26.67 22.86)
+					(end 26.67 -22.86)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -25.4 21.59)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -29.21 17.78 0)
+					(length 2.54)
+					(name "MCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -29.21 -5.08 0)
+					(length 2.54)
+					(name "MIC1LP/LINE1LP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -29.21 -7.62 0)
+					(length 2.54)
+					(name "MIC1LM/LINE1LM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -29.21 -10.16 0)
+					(length 2.54)
+					(name "MIC1RP/LINE1RP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -29.21 -12.7 0)
+					(length 2.54)
+					(name "MIC1RM/LINE1RM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -29.21 -15.24 0)
+					(length 2.54)
+					(name "MIC2L/LINE2L/MICDET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -29.21 -17.78 0)
+					(length 2.54)
+					(name "MICBIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -29.21 -20.32 0)
+					(length 2.54)
+					(name "MIC2R/LINE2R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 29.21 -20.32 180)
+					(length 2.54)
+					(name "AVSS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 29.21 -17.78 180)
+					(length 2.54)
+					(name "DRVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 29.21 -15.24 180)
+					(length 2.54)
+					(name "HPLOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -29.21 15.24 0)
+					(length 2.54)
+					(name "BCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 29.21 -12.7 180)
+					(length 2.54)
+					(name "HPLCOM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 29.21 -10.16 180)
+					(length 2.54)
+					(name "DRVSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 29.21 -7.62 180)
+					(length 2.54)
+					(name "HPRCOM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 29.21 -5.08 180)
+					(length 2.54)
+					(name "HPROUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 29.21 -2.54 180)
+					(length 2.54)
+					(name "DRVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 29.21 0 180)
+					(length 2.54)
+					(name "AVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 29.21 2.54 180)
+					(length 2.54)
+					(name "AVSS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 29.21 5.08 180)
+					(length 2.54)
+					(name "LEFT_LOP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 29.21 7.62 180)
+					(length 2.54)
+					(name "LEFT_LOM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 29.21 10.16 180)
+					(length 2.54)
+					(name "RIGHT_LOP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -29.21 12.7 0)
+					(length 2.54)
+					(name "WCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 29.21 12.7 180)
+					(length 2.54)
+					(name "RIGHT_LOM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 29.21 15.24 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 29.21 17.78 180)
+					(length 2.54)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 29.21 20.32 180)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -29.21 10.16 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -29.21 7.62 0)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -29.21 5.08 0)
+					(length 2.54)
+					(name "DVSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -29.21 2.54 0)
+					(length 2.54)
+					(name "IOVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -29.21 0 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -29.21 -2.54 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "linuxpocket:TLV320AIC3101IRHBR")
+		(at 107.95 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1d59b6b-3f15-4d09-b7d7-965881c7ec77")
+		(property "Reference" "U6"
+			(at 107.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV320AIC3101IRHBR"
+			(at 107.95 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "linuxpocket:QFN-32_L5.0-W5.0-P0.50-TL-EP3.4"
+			(at 107.95 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Audio-A-D-Converter-ICs_TI_TLV320AIC3101IRHBR_TLV320AIC3101IRHBR_C58566.html"
+			(at 107.95 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C58566"
+			(at 107.95 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "25"
+			(uuid "ced6641f-7824-48e1-a46c-b9b87c4b5936")
+		)
+		(pin "12"
+			(uuid "b33f6e38-3e37-4e97-8faf-9c9eef2b2978")
+		)
+		(pin "11"
+			(uuid "dfd7f91c-0845-4c0f-b1e4-41a2512f53ac")
+		)
+		(pin "15"
+			(uuid "10e83ae6-f1ce-48da-82a4-da17899a8b0b")
+		)
+		(pin "13"
+			(uuid "1846f6ba-79aa-41e9-bca9-7440f4a206e5")
+		)
+		(pin "7"
+			(uuid "36908b21-8057-4dae-84d7-44f94f7bb8e8")
+		)
+		(pin "6"
+			(uuid "99d7b41b-159e-4902-8aff-c72453e87930")
+		)
+		(pin "19"
+			(uuid "836c04db-627c-403f-8dd0-aef8e0dac6a3")
+		)
+		(pin "4"
+			(uuid "b9b0f0b0-68c3-4ec6-aa9c-d3730fe84ce0")
+		)
+		(pin "2"
+			(uuid "9df8b40f-0e91-4045-8368-dfc36ac466f8")
+		)
+		(pin "20"
+			(uuid "02210b11-2e58-4df4-a362-0771d4d5702a")
+		)
+		(pin "21"
+			(uuid "7c2d99d3-3572-4409-bc8b-a96a3a7024f5")
+		)
+		(pin "30"
+			(uuid "f61dc1c8-39c5-47dc-ad2f-b2f1f6a9b972")
+		)
+		(pin "5"
+			(uuid "0382df1c-6861-4664-bdc3-6aa5fc5cf2d9")
+		)
+		(pin "10"
+			(uuid "983e47c1-5659-4159-9442-d1b340422e4a")
+		)
+		(pin "1"
+			(uuid "8e341e96-da1e-4117-b710-1900d9eef458")
+		)
+		(pin "29"
+			(uuid "2bbb7c58-1ae8-4318-b4cc-ca2dfb596982")
+		)
+		(pin "3"
+			(uuid "c19222f0-6e89-44a1-a072-555a5f2cb7b0")
+		)
+		(pin "8"
+			(uuid "a1864acc-c83d-4451-b320-a47e5d13084e")
+		)
+		(pin "9"
+			(uuid "f6eb9b53-b348-41bb-9188-cab59e476ea8")
+		)
+		(pin "24"
+			(uuid "27e40156-2cde-4cb5-af1e-9a64f943c8eb")
+		)
+		(pin "23"
+			(uuid "b41b1bf1-9c67-4119-99ae-fb8743dafabf")
+		)
+		(pin "18"
+			(uuid "49c1cbb4-8ab5-480c-a1b4-8ec8a2f1796d")
+		)
+		(pin "31"
+			(uuid "936fe2aa-c67e-4426-9cc9-6ad6fadf647d")
+		)
+		(pin "17"
+			(uuid "4bfb9ee1-abf2-4ff1-91af-47b571f8a44e")
+		)
+		(pin "32"
+			(uuid "0b3e03b2-0be7-4e97-9570-24f4ee50b091")
+		)
+		(pin "26"
+			(uuid "dd40ce56-019a-4647-b99d-d5d0c11e8547")
+		)
+		(pin "22"
+			(uuid "caa8df61-88fb-40cb-950f-a852baef3323")
+		)
+		(pin "14"
+			(uuid "41a69105-384c-46b0-97b9-2bb68bff8db6")
+		)
+		(pin "33"
+			(uuid "9b03555f-9b2a-45f2-a0aa-d1a0334e618b")
+		)
+		(pin "16"
+			(uuid "ea2d6863-25c2-4938-9960-ff20c7f69006")
+		)
+		(pin "28"
+			(uuid "ce21645e-405c-47c2-b165-d47c65dddb74")
+		)
+		(pin "27"
+			(uuid "285d9806-68ac-46c1-913a-a0a1bdbbb946")
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/c2909bcf-0294-431b-b5c3-a966eeb72594"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

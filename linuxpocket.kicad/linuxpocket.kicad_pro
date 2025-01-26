@@ -287,6 +287,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -394,15 +395,23 @@
     ],
     [
       "748cdf11-7804-4e37-b79e-0f3d48b13d4c",
-      "USB"
+      "USB-C"
     ],
     [
       "7405f2ae-4443-4e6f-9c19-b00d1eeb9817",
       "High Speed"
     ],
     [
+      "c2909bcf-0294-431b-b5c3-a966eeb72594",
+      "Audio"
+    ],
+    [
       "80740467-2537-4aa9-be41-8a76ad0fbd83",
       "Battery and Power"
+    ],
+    [
+      "73d6cf8a-2441-40f6-acf5-544260157572",
+      "Keyboard"
     ]
   ],
   "text_variables": {}
