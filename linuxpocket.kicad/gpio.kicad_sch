@@ -6562,6 +6562,16 @@
 	)
 	(polyline
 		(pts
+			(xy 177.8 107.95) (xy 172.72 107.95)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "0cd309c9-fff4-467e-a67e-027bfb486db3")
+	)
+	(polyline
+		(pts
 			(xy 280.67 149.86) (xy 280.67 17.78)
 		)
 		(stroke
@@ -6979,6 +6989,16 @@
 		)
 		(uuid "34ceae2c-cac0-4a34-98c7-74a19c482d2b")
 	)
+	(polyline
+		(pts
+			(xy 172.72 107.95) (xy 172.72 161.29)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "34f6f4ce-b02e-471b-b8d2-f994d015a7e3")
+	)
 	(wire
 		(pts
 			(xy 243.84 39.37) (xy 243.84 36.83)
@@ -7169,6 +7189,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 151.13) (xy 217.17 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d380d2-0cca-4f6f-8d11-3c37651a5186")
+	)
+	(wire
+		(pts
 			(xy 173.99 91.44) (xy 173.99 88.9)
 		)
 		(stroke
@@ -7295,7 +7325,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 118.11) (xy 152.4 118.11)
+			(xy 184.15 120.65) (xy 196.85 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7669,6 +7699,16 @@
 		)
 		(uuid "787106d8-450a-4fbc-ac46-39c630e7d0c9")
 	)
+	(polyline
+		(pts
+			(xy 229.87 161.29) (xy 229.87 107.95)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "795cd017-8b07-4225-b7e2-c482a562036c")
+	)
 	(wire
 		(pts
 			(xy 181.61 59.69) (xy 194.31 59.69)
@@ -7728,6 +7768,16 @@
 			(type default)
 		)
 		(uuid "7d3b672a-e41e-45ac-bf90-9526a0425a78")
+	)
+	(wire
+		(pts
+			(xy 193.04 135.89) (xy 196.85 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f348244-490e-4134-8859-1ef8012c2868")
 	)
 	(wire
 		(pts
@@ -7983,6 +8033,16 @@
 		)
 		(uuid "a0581487-be38-4d75-8d7b-316dc65e655f")
 	)
+	(polyline
+		(pts
+			(xy 172.72 161.29) (xy 229.87 161.29)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "a2095f19-a5df-41d6-b03c-d47035660666")
+	)
 	(wire
 		(pts
 			(xy 173.99 71.12) (xy 173.99 73.66)
@@ -8100,7 +8160,17 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 118.11) (xy 172.72 118.11)
+			(xy 207.01 135.89) (xy 217.17 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a05cb0-9cbd-4182-bbb9-e140b115d7d9")
+	)
+	(wire
+		(pts
+			(xy 207.01 120.65) (xy 217.17 120.65)
 		)
 		(stroke
 			(width 0)
@@ -8612,6 +8682,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 151.13) (xy 196.85 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1765944-e8bd-4649-a04d-74f628c814e1")
+	)
+	(wire
+		(pts
 			(xy 266.7 21.59) (xy 266.7 20.32)
 		)
 		(stroke
@@ -8629,6 +8709,16 @@
 			(type default)
 		)
 		(uuid "e261a9a5-38e6-4898-affa-892a262826a5")
+	)
+	(polyline
+		(pts
+			(xy 194.31 107.95) (xy 229.87 107.95)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "e3f5da24-37d8-4f95-81ea-649c14b4a8dd")
 	)
 	(wire
 		(pts
@@ -8887,6 +8977,19 @@
 		)
 		(uuid "85306b0d-a3f1-4972-a1d9-be6792fdd761")
 	)
+	(text "Buttons"
+		(exclude_from_sim no)
+		(at 185.928 108.204 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "c5403e42-5780-4462-8492-6ca41538b05f")
+	)
 	(label "DPI_D13"
 		(at 21.59 82.55 0)
 		(fields_autoplaced yes)
@@ -9097,7 +9200,7 @@
 		(uuid "519afb71-6d01-464d-b40d-2d692156d1e2")
 	)
 	(label "PWR_BUT"
-		(at 139.7 118.11 0)
+		(at 184.15 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9709,6 +9812,18 @@
 		)
 		(uuid "513fc01b-e06b-49aa-bd81-3be7258ad4aa")
 	)
+	(hierarchical_label "VOL_DOWN"
+		(shape input)
+		(at 195.58 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5279bd2d-e39b-403c-924f-915562bd1b11")
+	)
 	(hierarchical_label "SDA"
 		(shape input)
 		(at 27.94 123.19 180)
@@ -9852,6 +9967,18 @@
 			(justify right)
 		)
 		(uuid "ea480db5-ff74-4b52-99b8-40a3d2b2a805")
+	)
+	(hierarchical_label "VOL_UP"
+		(shape input)
+		(at 193.04 135.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f3cbff29-ff5c-4232-b0ea-7018805a1c69")
 	)
 	(symbol
 		(lib_id "power:+1V8")
@@ -10273,6 +10400,72 @@
 			(project "linuxpocket"
 				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/157d7587-4674-47d2-b2e3-79ed693e51a7"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3035136d-5fcf-4c2a-b743-dde4710226fb")
+		(property "Reference" "#PWR061"
+			(at 217.17 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17646554-7949-46f6-bdd7-bc532d349272")
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/157d7587-4674-47d2-b2e3-79ed693e51a7"
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -10758,7 +10951,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 157.48 118.11 0)
+		(at 201.93 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10767,15 +10960,15 @@
 		(fields_autoplaced yes)
 		(uuid "807ea6b8-6060-439f-a4eb-ab23da870770")
 		(property "Reference" "SW1"
-			(at 157.48 110.49 0)
+			(at 201.93 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 157.48 113.03 0)
+		(property "Value" "POWER"
+			(at 201.93 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10783,7 +10976,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 113.03 0)
+			(at 201.93 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10792,7 +10985,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 113.03 0)
+			(at 201.93 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10801,7 +10994,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 157.48 118.11 0)
+			(at 201.93 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10826,7 +11019,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 118.11 0)
+		(at 217.17 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10835,7 +11028,7 @@
 		(fields_autoplaced yes)
 		(uuid "80a11a1e-b5bf-4d6a-aedb-22723b407c1d")
 		(property "Reference" "#PWR048"
-			(at 172.72 124.46 0)
+			(at 217.17 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10844,7 +11037,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 123.19 0)
+			(at 217.17 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10852,7 +11045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 118.11 0)
+			(at 217.17 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10861,7 +11054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 118.11 0)
+			(at 217.17 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10870,7 +11063,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 118.11 0)
+			(at 217.17 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10885,6 +11078,72 @@
 			(project ""
 				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/157d7587-4674-47d2-b2e3-79ed693e51a7"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8beb8493-dcda-4aa2-8fab-3c2be3ebc31d")
+		(property "Reference" "#PWR062"
+			(at 217.17 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbfdd6f7-ba38-41d8-853c-3361f80ea1ca")
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/157d7587-4674-47d2-b2e3-79ed693e51a7"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -11094,6 +11353,74 @@
 			(project "linuxpocket"
 				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/157d7587-4674-47d2-b2e3-79ed693e51a7"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 201.93 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98d51d57-5620-44db-9718-ccd028052c08")
+		(property "Reference" "SW2"
+			(at 201.93 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VOL_UP"
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 201.93 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb50c498-9ef4-4215-82ca-76a0d6dd61b9")
+		)
+		(pin "1"
+			(uuid "754c8d69-c17f-4dd2-b85a-3dfb7899bf64")
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/157d7587-4674-47d2-b2e3-79ed693e51a7"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -11491,6 +11818,74 @@
 			(project "linuxpocket"
 				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/157d7587-4674-47d2-b2e3-79ed693e51a7"
 					(reference "FPC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 201.93 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf47029b-baf1-4590-bb12-283e3a7c20f7")
+		(property "Reference" "SW3"
+			(at 201.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VOL_DOWN"
+			(at 201.93 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 201.93 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba7327d1-bd68-4cd8-9c4b-efd30c6373d3")
+		)
+		(pin "1"
+			(uuid "aefb75cc-bb36-4111-b9b4-6905c78936e7")
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/157d7587-4674-47d2-b2e3-79ed693e51a7"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
