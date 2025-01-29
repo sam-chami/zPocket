@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Overview")
-		(date "2024-19-10 - 2024-31-10")
+		(date "2024-10-19 - 2025-01-29")
 		(rev "Prototype v0")
 		(company "xamuel.xyz")
 	)
@@ -1091,7 +1091,7 @@
 			(uuid "a1c352cb-9a44-4df1-aeee-445922c377bd")
 		)
 		(pin "PCM_DOUT" input
-			(at 172.72 154.94 0)
+			(at 172.72 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1101,7 +1101,7 @@
 			(uuid "ce0aac55-e0c6-42e2-94b1-eb4e85c06921")
 		)
 		(pin "PCM_DIN" input
-			(at 172.72 152.4 0)
+			(at 172.72 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1111,7 +1111,7 @@
 			(uuid "1c35dfe0-f5e9-4d5c-844b-59dcdb72dcf6")
 		)
 		(pin "PCM_SYNC" input
-			(at 172.72 149.86 0)
+			(at 172.72 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1141,7 +1141,7 @@
 			(uuid "0a027441-92fe-4050-b75b-5684a129e728")
 		)
 		(pin "PCM_CLK" input
-			(at 172.72 147.32 0)
+			(at 172.72 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
