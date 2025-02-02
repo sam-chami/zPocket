@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "GPIO and LowSpeed")
-		(date "2024-10-19")
+		(date "2024-10-19 - 2025-02-02")
 		(rev "Prototype v0")
 		(company "xamuel.xyz")
 	)
@@ -10672,83 +10672,6 @@
 		(uuid "f9e84ca1-d468-4176-bd3c-a01d6a31a069")
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 208.28 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bf3403e-c9ba-4fa2-b5fd-001b360b6bba")
-		(property "Reference" "SW3"
-			(at 208.28 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VOL_DOWN"
-			(at 208.28 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "linuxpocket:SW-SMD_GT-TC020B-H035-L05"
-			(at 208.28 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 208.28 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17179534"
-			(at 208.28 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "56308ed1-9757-44ab-a7f7-35677b4cbfae")
-		)
-		(pin "1"
-			(uuid "aa4d0d2d-8958-467b-99ce-7334bc4cf111")
-		)
-		(instances
-			(project "linuxpocket"
-				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/157d7587-4674-47d2-b2e3-79ed693e51a7"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V8")
 		(at 25.4 130.81 0)
 		(unit 1)
@@ -10809,83 +10732,6 @@
 			(project "linuxpocket"
 				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/157d7587-4674-47d2-b2e3-79ed693e51a7"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 208.28 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13015d0c-eaa0-4204-a13a-04cf84c3d3cf")
-		(property "Reference" "SW2"
-			(at 208.28 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VOL_UP"
-			(at 208.28 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "linuxpocket:SW-SMD_GT-TC020B-H035-L05"
-			(at 208.28 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 208.28 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17179534"
-			(at 208.28 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "720fc3c4-3b6c-410f-98ba-f02801eea32c")
-		)
-		(pin "1"
-			(uuid "2923b119-71c9-4d73-84d8-45531ef4c423")
-		)
-		(instances
-			(project "linuxpocket"
-				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/157d7587-4674-47d2-b2e3-79ed693e51a7"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -12038,7 +11884,7 @@
 				)
 			)
 		)
-		(property "Value" "POWER"
+		(property "Value" "PUSH"
 			(at 208.28 115.57 0)
 			(effects
 				(font
@@ -13021,6 +12867,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 208.28 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6755c61-ec1c-4f9f-9f9b-70be822fa8de")
+		(property "Reference" "SW2"
+			(at 208.28 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PUSH"
+			(at 208.28 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "linuxpocket:SW-SMD_GT-TC020B-H035-L05"
+			(at 208.28 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 208.28 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17179534"
+			(at 208.28 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ebfc5ec-c261-412b-acdd-fbd3df11b1e0")
+		)
+		(pin "1"
+			(uuid "fcec9649-bb8e-4887-9839-4c6d8dd8d849")
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/157d7587-4674-47d2-b2e3-79ed693e51a7"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 259.08 35.56 0)
 		(unit 1)
@@ -13978,6 +13901,83 @@
 			(project "linuxpocket"
 				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/157d7587-4674-47d2-b2e3-79ed693e51a7"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 208.28 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3104072-a1a8-4e23-90e6-bd81b357735e")
+		(property "Reference" "SW3"
+			(at 208.28 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PUSH"
+			(at 208.28 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "linuxpocket:SW-SMD_GT-TC020B-H035-L05"
+			(at 208.28 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 208.28 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17179534"
+			(at 208.28 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a55475d-918a-483f-9256-2a4a4ee6ea06")
+		)
+		(pin "1"
+			(uuid "86c43913-30dd-485c-b397-ae8cc23fb9c4")
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/157d7587-4674-47d2-b2e3-79ed693e51a7"
+					(reference "SW3")
 					(unit 1)
 				)
 			)

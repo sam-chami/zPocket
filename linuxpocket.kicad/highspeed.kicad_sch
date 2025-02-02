@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "High Speed Signals")
-		(date "2024-10-31")
+		(date "2024-10-31 - 2025-02-02")
 		(rev "Prototype v0")
 		(company "xamuel.xyz")
 	)
@@ -9042,7 +9042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PCBEdge:BUS_PCI_Express_Mini"
+		(property "Footprint" "Connector_PCBEdge:BUS_PCI_Express_Mini_Full"
 			(at 243.84 62.23 0)
 			(effects
 				(font
