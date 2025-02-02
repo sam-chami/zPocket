@@ -8936,6 +8936,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 204.47 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8dc761f2-887d-40c1-b4dc-1c668c21f10e")
+		(property "Reference" "C13"
+			(at 208.28 30.8609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF"
+			(at 208.28 33.4009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D"
+			(at 205.4352 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 204.47 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C123270"
+			(at 204.47 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a341db64-1f93-46c5-9362-5c5c61b7c811")
+		)
+		(pin "2"
+			(uuid "01c6a5bc-0f22-43e0-96a4-bd331de14c63")
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/7405f2ae-4443-4e6f-9c19-b00d1eeb9817"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Bus_PCI_Express_Mini")
 		(at 243.84 62.23 0)
 		(unit 1)
@@ -8963,7 +9042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PCBEdge:BUS_PCI_Express_Mini"
 			(at 243.84 62.23 0)
 			(effects
 				(font
@@ -9183,7 +9262,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 193.802 67.31 90)
 			(effects
 				(font
@@ -9210,6 +9289,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 195.58 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "342b281a-834e-42a3-94b9-117fb96c0800")
 		)
@@ -9226,76 +9314,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 204.47 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b98fa190-292e-4d6d-bed5-864a6b64d4cd")
-		(property "Reference" "C13"
-			(at 208.28 30.8609 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470uF"
-			(at 208.28 33.4009 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.4352 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 204.47 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6a7fec1-cc81-4c5c-8b60-b2ce419fed10")
-		)
-		(pin "2"
-			(uuid "6ea6bb40-171b-41c6-9f37-f0c0b03c05cd")
-		)
-		(instances
-			(project "linuxpocket"
-				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/7405f2ae-4443-4e6f-9c19-b00d1eeb9817"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 204.47 67.31 0)
 		(unit 1)
@@ -9303,7 +9321,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c79033e8-b47b-4011-9d5f-4246b77ab96a")
+		(uuid "bff7bd14-8489-4d2b-b5ae-9c59275f5034")
 		(property "Reference" "R17"
 			(at 201.676 67.31 90)
 			(effects
@@ -9320,7 +9338,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 202.692 67.31 90)
 			(effects
 				(font
@@ -9347,11 +9365,20 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25744"
+			(at 204.47 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "28b65d2e-bb85-4393-89e7-4a2743de7dcc")
+			(uuid "e5551198-414d-4242-8fa3-e5441574162d")
 		)
 		(pin "1"
-			(uuid "e6ab8248-1539-4ea7-972f-b2b4021761cf")
+			(uuid "8e46cfb8-4ecf-4698-90e5-04cd38deafe5")
 		)
 		(instances
 			(project "linuxpocket"

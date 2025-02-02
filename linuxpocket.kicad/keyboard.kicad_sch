@@ -3498,35 +3498,32 @@
 		(uuid "c226f731-5f45-4de0-bde3-27dec9d1e220")
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 250.19 59.69 270)
+		(lib_id "Device:R")
+		(at 43.18 76.2 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "162bb145-be02-4be5-8106-5277c7f37b10")
-		(property "Reference" "TP3"
-			(at 255.016 59.69 90)
+		(uuid "1b23cbbe-ce5c-4a77-9152-d2e0da65f2f9")
+		(property "Reference" "R4"
+			(at 43.18 81.534 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 255.27 60.9599 90)
+		(property "Value" "22"
+			(at 43.18 78.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 250.19 64.77 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 43.18 74.422 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3535,7 +3532,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 64.77 0)
+			(at 43.18 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3543,22 +3540,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 250.19 59.69 0)
+		(property "Description" "Resistor"
+			(at 43.18 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "LCSC" "C25092"
+			(at 43.18 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "74e1c6b6-c20b-45ea-bb88-e15f371f8a71")
 		)
 		(pin "1"
-			(uuid "509b4126-d758-475b-bdd8-c51862676312")
+			(uuid "d9478dfe-5a25-4516-8c2e-0f999d84a201")
 		)
 		(instances
 			(project "linuxpocket"
 				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/73d6cf8a-2441-40f6-acf5-544260157572"
-					(reference "TP3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3909,73 +3918,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 250.19 55.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3140c00f-1e14-477b-ac74-08893e3a7205")
-		(property "Reference" "TP2"
-			(at 255.016 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 255.27 57.1499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 250.19 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c49c19b0-06fa-44f5-9686-cdc1861479ea")
-		)
-		(instances
-			(project "linuxpocket"
-				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/73d6cf8a-2441-40f6-acf5-544260157572"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 68.58 36.83 0)
 		(unit 1)
@@ -4126,73 +4068,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 250.19 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "33171909-443a-40f4-8caa-27819ac9cb98")
-		(property "Reference" "TP4"
-			(at 255.016 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 255.27 64.7699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 250.19 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 250.19 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 250.19 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5242c3b8-3eb3-4e18-92c8-adba4a185007")
-		)
-		(instances
-			(project "linuxpocket"
-				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/73d6cf8a-2441-40f6-acf5-544260157572"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 49.53 68.58 0)
 		(unit 1)
@@ -4253,6 +4128,166 @@
 			(project ""
 				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/73d6cf8a-2441-40f6-acf5-544260157572"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 256.54 120.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6893b321-1d05-4d04-91db-9425cd15e6cf")
+		(property "Reference" "C25"
+			(at 260.35 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47nF"
+			(at 260.35 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 255.5748 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 256.54 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1622"
+			(at 256.54 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d42ecce1-b53a-4f92-855c-27ada2c8ac65")
+		)
+		(pin "2"
+			(uuid "fe95356d-1a37-41aa-b8a9-59d3a07664d0")
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/73d6cf8a-2441-40f6-acf5-544260157572"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 243.84 120.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fd30380-4f99-4c65-95dc-b3c21be16688")
+		(property "Reference" "C24"
+			(at 247.65 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47nF"
+			(at 247.65 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 242.8748 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 243.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1622"
+			(at 243.84 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6865809-373c-4d10-aa4c-bacba87928c8")
+		)
+		(pin "2"
+			(uuid "101e7fc3-17df-4772-a378-e91ce2dc68cb")
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/73d6cf8a-2441-40f6-acf5-544260157572"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -4401,32 +4436,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 43.18 76.2 270)
+		(lib_id "Connector:TestPoint")
+		(at 250.19 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "93f1a1a7-b420-4d72-a390-f8f19dcae6bd")
-		(property "Reference" "R23"
-			(at 43.18 81.534 90)
+		(uuid "8e2b89b2-cc4a-439b-934c-a5640e06199f")
+		(property "Reference" "TP3"
+			(at 255.016 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "22"
-			(at 43.18 78.994 90)
+		(property "Value" "TestPoint"
+			(at 255.27 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 43.18 74.422 90)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 250.19 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,7 +4473,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 76.2 0)
+			(at 250.19 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,25 +4481,89 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 43.18 76.2 0)
+		(property "Description" "test point"
+			(at 250.19 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "207ef74d-caa1-47a5-aee9-8e3c7b6c495f")
 		)
 		(pin "1"
-			(uuid "85167278-bc37-4153-9279-877edfcc60e4")
+			(uuid "d620d806-741b-4603-b9f0-d67d9a55dbbf")
 		)
 		(instances
 			(project "linuxpocket"
 				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/73d6cf8a-2441-40f6-acf5-544260157572"
-					(reference "R23")
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 250.19 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f4cfc58-e54e-4989-a60f-e8d10effdb5b")
+		(property "Reference" "TP2"
+			(at 255.016 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 255.27 57.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 250.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 250.19 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a67d75e-1dfe-4ba3-b9e2-0881d3800199")
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/73d6cf8a-2441-40f6-acf5-544260157572"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -4528,77 +4630,6 @@
 			(project ""
 				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/73d6cf8a-2441-40f6-acf5-544260157572"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 256.54 120.65 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a15904ab-09e9-4530-bf55-9d0b373f4c53")
-		(property "Reference" "C25"
-			(at 260.35 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "47nF"
-			(at 260.35 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.5748 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 256.54 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 256.54 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "491b2e29-52b6-459e-ae69-ef4003e021c6")
-		)
-		(pin "2"
-			(uuid "b7f93f91-3175-4a18-8fb9-7e7e92083048")
-		)
-		(instances
-			(project "linuxpocket"
-				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/73d6cf8a-2441-40f6-acf5-544260157572"
-					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -4871,77 +4902,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 236.22 120.65 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6d64c96-aa08-469d-86ac-fbeb811277be")
-		(property "Reference" "C23"
-			(at 232.41 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "47nF"
-			(at 232.41 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.1852 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 236.22 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5fcf42d8-52d9-4943-b4c3-484ec71b31a0")
-		)
-		(pin "2"
-			(uuid "04e9db1f-d474-43e9-b4e2-30fb20eb00e3")
-		)
-		(instances
-			(project "linuxpocket"
-				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/73d6cf8a-2441-40f6-acf5-544260157572"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 43.18 73.66 90)
 		(unit 1)
@@ -4966,7 +4926,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 43.18 75.438 90)
 			(effects
 				(font
@@ -4986,6 +4946,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 43.18 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25092"
+			(at 43.18 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,7 +5005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 			(at 250.19 57.15 0)
 			(effects
 				(font
@@ -5070,77 +5039,6 @@
 			(project ""
 				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/73d6cf8a-2441-40f6-acf5-544260157572"
 					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 243.84 120.65 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d36a4499-71a0-4236-b98c-69ddbfe3b2a3")
-		(property "Reference" "C24"
-			(at 247.65 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "47nF"
-			(at 247.65 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.8748 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 243.84 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a982a814-bcba-4a05-8603-96471c8fddc3")
-		)
-		(pin "2"
-			(uuid "5200c3c4-af18-490d-8ff0-9563d191a45b")
-		)
-		(instances
-			(project "linuxpocket"
-				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/73d6cf8a-2441-40f6-acf5-544260157572"
-					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -5279,6 +5177,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 250.19 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df41a5ed-d4ad-4ae6-879f-009e6b1b30de")
+		(property "Reference" "TP4"
+			(at 255.016 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 255.27 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 250.19 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 250.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89a3f608-2820-49cf-977c-bede7b37985b")
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/73d6cf8a-2441-40f6-acf5-544260157572"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 72.39 36.83 0)
 		(unit 1)
@@ -5404,6 +5369,84 @@
 			(project ""
 				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/73d6cf8a-2441-40f6-acf5-544260157572"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 236.22 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f29bf323-38cf-4d5d-952e-4294eaf8dc15")
+		(property "Reference" "C23"
+			(at 232.41 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47nF"
+			(at 232.41 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 237.1852 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 236.22 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1622"
+			(at 236.22 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8822af3d-d1e0-4bdc-9d31-30d6e63787d7")
+		)
+		(pin "2"
+			(uuid "695fb946-f4b4-4304-8166-ad695f28539b")
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/73d6cf8a-2441-40f6-acf5-544260157572"
+					(reference "C23")
 					(unit 1)
 				)
 			)

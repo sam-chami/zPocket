@@ -4545,6 +4545,19 @@
 		)
 		(uuid "192968aa-e4a1-4fc8-8a63-a01b75851baa")
 	)
+	(text "0x22"
+		(exclude_from_sim no)
+		(at 226.822 108.966 0)
+		(effects
+			(font
+				(size 1.65 1.65)
+				(thickness 0.33)
+				(bold yes)
+				(color 132 0 132 1)
+			)
+		)
+		(uuid "4a868dd2-0f4f-4109-8fb0-41c8274ad522")
+	)
 	(text "USB 3 will be added alongside DP altmode"
 		(exclude_from_sim no)
 		(at 215.9 68.834 0)
@@ -5161,6 +5174,85 @@
 			(project "linuxpocket"
 				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/748cdf11-7804-4e37-b79e-0f3d48b13d4c"
 					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 160.02 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "309286fe-8437-4424-b9e9-eff2811e3505")
+		(property "Reference" "C26"
+			(at 156.21 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 156.21 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 159.0548 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C59461"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7eb31f8c-3bab-41b4-8ac4-5f65216f38c6")
+		)
+		(pin "2"
+			(uuid "bf23f288-b438-41f9-b4b4-f2bf5fa4684d")
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/748cdf11-7804-4e37-b79e-0f3d48b13d4c"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -6068,76 +6160,6 @@
 			(project "linuxpocket"
 				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/748cdf11-7804-4e37-b79e-0f3d48b13d4c"
 					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 160.02 106.68 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a677459-f272-4422-8859-4c1b43ec7676")
-		(property "Reference" "C26"
-			(at 153.416 105.918 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22uF"
-			(at 152.4 108.458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 159.0548 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 160.02 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e9e122ff-f571-48fe-8313-0eae0d87bdca")
-		)
-		(pin "2"
-			(uuid "aeba56d4-932b-44be-b20f-a83df592a100")
-		)
-		(instances
-			(project "linuxpocket"
-				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/748cdf11-7804-4e37-b79e-0f3d48b13d4c"
-					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -7261,7 +7283,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "linuxpocket:USB-SMD_TYPE-C16PIN-1"
 			(at 161.29 52.07 0)
 			(effects
 				(font
@@ -7280,6 +7302,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 157.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5150972"
 			(at 157.48 52.07 0)
 			(effects
 				(font
@@ -7919,7 +7950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "linuxpocket:HDMI-SMD_A71-05H4-111N1"
 			(at 117.475 64.77 0)
 			(effects
 				(font
@@ -7938,6 +7969,15 @@
 			)
 		)
 		(property "Description" "HDMI 1.4+ type C connector"
+			(at 116.84 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2682170"
 			(at 116.84 64.77 0)
 			(effects
 				(font
