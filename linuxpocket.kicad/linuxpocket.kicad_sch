@@ -48,10 +48,6 @@
 		(uuid "54da4c6e-d482-41fa-87da-7e0d95da7546")
 	)
 	(no_connect
-		(at 113.03 101.6)
-		(uuid "64c33109-3ff7-43e0-a206-e6bcb02a31b6")
-	)
-	(no_connect
 		(at 106.68 121.92)
 		(uuid "660dc22e-bf98-4ade-bfee-46451f6c6746")
 	)
@@ -501,6 +497,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 83.82) (xy 113.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ccbbbfa-9b21-43ee-9bdc-3d2eb838e291")
+	)
+	(wire
+		(pts
 			(xy 153.67 83.82) (xy 153.67 100.33)
 		)
 		(stroke
@@ -810,19 +816,6 @@
 		)
 		(uuid "b0e317c7-6684-4e37-b819-7ff4861dd11b")
 	)
-	(text "TODO:\n	needs physical design:\n	BATTERY ICs FINAL TOUCHES"
-		(exclude_from_sim no)
-		(at 32.004 39.624 0)
-		(effects
-			(font
-				(size 1.6 1.6)
-				(italic yes)
-				(color 194 194 0 1)
-			)
-			(justify left)
-		)
-		(uuid "ff07bb20-fc5c-490a-87f7-c42efd12cdf6")
-	)
 	(label "SDA"
 		(at 175.26 57.15 0)
 		(fields_autoplaced yes)
@@ -1096,15 +1089,15 @@
 			)
 			(uuid "8dfb76c8-a6c6-4b10-be58-7049b4a27326")
 		)
-		(pin "USB-INT" input
-			(at 106.68 81.28 180)
+		(pin "RI" input
+			(at 113.03 83.82 270)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "14abdfd0-b603-4241-a49f-1802bf240430")
+			(uuid "7a92c539-2140-419c-85f0-5606b6e01ceb")
 		)
 		(instances
 			(project "linuxpocket"

@@ -2939,6 +2939,12 @@
 		(uuid "72428cf5-216f-44be-9c63-788bd72622de")
 	)
 	(junction
+		(at 41.91 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74b8d1b3-ca4a-4f24-9bdf-d3fd10ceea1b")
+	)
+	(junction
 		(at 95.25 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3137,6 +3143,14 @@
 	(no_connect
 		(at 252.73 113.03)
 		(uuid "7ed52a4d-bd5e-4694-964a-c3846ab8586d")
+	)
+	(no_connect
+		(at 57.15 66.04)
+		(uuid "ba8b43c9-0e8c-4310-9e99-cd43aa0eed6d")
+	)
+	(no_connect
+		(at 82.55 83.82)
+		(uuid "ff728eed-9b35-4acb-8b9f-97c90e50de53")
 	)
 	(wire
 		(pts
@@ -3427,16 +3441,6 @@
 			(type default)
 		)
 		(uuid "207d6d72-8298-4523-96b5-ef34cf73da98")
-	)
-	(wire
-		(pts
-			(xy 53.34 66.04) (xy 57.15 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "208645e8-3a4f-4c12-9d36-7a9c7ae389f7")
 	)
 	(polyline
 		(pts
@@ -3770,6 +3774,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 166.37) (xy 41.91 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f481df3-1b4d-4c40-b41c-bfcc8558fa68")
+	)
+	(wire
+		(pts
 			(xy 39.37 156.21) (xy 48.26 156.21)
 		)
 		(stroke
@@ -4000,7 +4014,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 66.04) (xy 35.56 66.04)
+			(xy 26.67 66.04) (xy 31.75 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4370,6 +4384,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 166.37) (xy 41.91 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "867dcac5-1186-4857-b1e4-8d6a39caa20e")
+	)
+	(wire
+		(pts
 			(xy 87.63 43.18) (xy 95.25 43.18)
 		)
 		(stroke
@@ -4497,6 +4521,16 @@
 			(type default)
 		)
 		(uuid "9691969a-7cb4-40c8-96a1-8fb25d26d889")
+	)
+	(wire
+		(pts
+			(xy 59.69 166.37) (xy 68.58 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae238a8-eb7b-4a9e-99e7-5c7e63b8bf02")
 	)
 	(wire
 		(pts
@@ -5090,7 +5124,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 66.04) (xy 45.72 66.04)
+			(xy 39.37 66.04) (xy 41.91 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5491,18 +5525,6 @@
 		)
 		(uuid "05d95aeb-74d1-41db-b1c4-4f20222ff285")
 	)
-	(text "TODO: Set resistor divider\naccording to temp range."
-		(exclude_from_sim no)
-		(at 112.268 116.84 0)
-		(effects
-			(font
-				(size 2 2)
-				(italic yes)
-				(color 194 194 0 1)
-			)
-		)
-		(uuid "08fa7fa4-9486-4ef3-b008-d512132c9141")
-	)
 	(text "FUEL GAUGE"
 		(exclude_from_sim no)
 		(at 35.306 129.032 0)
@@ -5553,18 +5575,6 @@
 			)
 		)
 		(uuid "4f87c710-3520-4c48-9259-4b8505feaff5")
-	)
-	(text "TODO: Setup BIN pin according to removable or fixed battery."
-		(exclude_from_sim no)
-		(at 105.918 189.484 0)
-		(effects
-			(font
-				(size 2 2)
-				(italic yes)
-				(color 194 194 0 1)
-			)
-		)
-		(uuid "58ea27c1-8447-4157-a6ce-dc1faec9b912")
 	)
 	(text "3V3 BUCK-BOOST"
 		(exclude_from_sim no)
@@ -5703,7 +5713,7 @@
 		(uuid "688aa380-8e65-409d-a063-41f2052fbf05")
 	)
 	(label "SYS"
-		(at 30.48 66.04 0)
+		(at 26.67 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6129,7 +6139,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.53 66.04 90)
+		(at 45.72 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6137,7 +6147,7 @@
 		(dnp no)
 		(uuid "0fb6df5e-8259-428e-afa1-562737071375")
 		(property "Reference" "R5"
-			(at 49.53 68.834 90)
+			(at 45.72 68.834 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6145,7 +6155,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 49.53 70.866 90)
+			(at 45.72 70.866 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6153,7 +6163,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 49.53 67.818 90)
+			(at 45.72 67.818 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6162,7 +6172,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 66.04 0)
+			(at 45.72 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6171,7 +6181,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.53 66.04 0)
+			(at 45.72 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6180,7 +6190,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 49.53 66.04 90)
+			(at 45.72 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6573,6 +6583,83 @@
 			(project "linuxpocket"
 				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/80740467-2537-4aa9-be41-8a76ad0fbd83"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 91.44 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "299e9e6b-1250-4e64-bc31-2e0fc383c3c4")
+		(property "Reference" "R8"
+			(at 94.996 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 94.996 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 93.218 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 91.44 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 91.44 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "85c877ab-7e9a-4df8-9a5b-4b35b674acd4")
+		)
+		(pin "1"
+			(uuid "8253497a-d90b-4aa1-b8fc-a425b0827875")
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/80740467-2537-4aa9-be41-8a76ad0fbd83"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7181,7 +7268,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "linuxpocket:IND-SMD_L7.1-W6.6_SL0624"
 			(at 170.18 97.79 0)
 			(effects
 				(font
@@ -7966,76 +8053,6 @@
 			(project "linuxpocket"
 				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/80740467-2537-4aa9-be41-8a76ad0fbd83"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 91.44 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a9b6c1f-fde0-4bcc-a89a-c68ed5ca95e1")
-		(property "Reference" "R8"
-			(at 93.98 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 93.98 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 89.662 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 91.44 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5df643c0-0f0e-4c58-b293-f7e88a2e5f54")
-		)
-		(pin "1"
-			(uuid "6e553124-794c-43c2-bb7e-04f8a4255852")
-		)
-		(instances
-			(project "linuxpocket"
-				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/80740467-2537-4aa9-be41-8a76ad0fbd83"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9825,6 +9842,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 55.88 166.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1f7a41a-d1a2-418c-8099-20bb5852efed")
+		(property "Reference" "R16"
+			(at 55.88 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 55.88 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 55.88 164.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 55.88 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 55.88 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d57ec831-2109-401b-96d1-345e651d0e93")
+		)
+		(pin "1"
+			(uuid "d775c24a-da49-4d6e-8d85-e2c40408f9c3")
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/80740467-2537-4aa9-be41-8a76ad0fbd83"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 200.66 52.07 0)
 		(unit 1)
@@ -10337,76 +10430,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 91.44 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d603c378-1b4e-467e-8239-7a0c93a05a26")
-		(property "Reference" "R7"
-			(at 93.98 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 93.98 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 89.662 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 91.44 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "096437ef-c7a2-4d21-9748-ecc7fc219a49")
-		)
-		(pin "1"
-			(uuid "6abede7d-7037-4d89-87ec-87262aedb9db")
-		)
-		(instances
-			(project "linuxpocket"
-				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/80740467-2537-4aa9-be41-8a76ad0fbd83"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 114.3 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10552,7 +10575,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 39.37 66.04 180)
+		(at 35.56 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10560,7 +10583,7 @@
 		(dnp no)
 		(uuid "e3b2b769-975a-484c-82d6-4dc598fb5e52")
 		(property "Reference" "D1"
-			(at 39.37 62.992 0)
+			(at 35.56 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10568,7 +10591,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 39.37 68.834 0)
+			(at 35.56 68.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10576,7 +10599,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 39.37 66.04 0)
+			(at 35.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10585,7 +10608,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 66.04 0)
+			(at 35.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10594,7 +10617,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 39.37 66.04 0)
+			(at 35.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10863,7 +10886,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "linuxpocket:IND-SMD_L7.1-W6.6_SL0624"
 			(at 227.33 92.71 0)
 			(effects
 				(font
@@ -11196,6 +11219,85 @@
 			(project "linuxpocket"
 				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/80740467-2537-4aa9-be41-8a76ad0fbd83"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 91.44 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fef017d2-3b7b-4198-8731-ffbfb37eda5d")
+		(property "Reference" "R7"
+			(at 93.98 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15k"
+			(at 93.98 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 89.662 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 91.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25756"
+			(at 91.44 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b2c115f8-f2cf-42eb-9806-f5d1a71f0f6e")
+		)
+		(pin "1"
+			(uuid "648566f6-2419-484f-a92f-0a8cc8ed2a68")
+		)
+		(instances
+			(project "linuxpocket"
+				(path "/de3771bf-b13a-459d-a957-6ff90f7da387/80740467-2537-4aa9-be41-8a76ad0fbd83"
+					(reference "R7")
 					(unit 1)
 				)
 			)

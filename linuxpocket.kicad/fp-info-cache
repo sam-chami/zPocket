@@ -1,4 +1,4 @@
-31035774574900
+36252233343904
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97566,6 +97566,13 @@ C0402
 2
 2
 linuxpocket
+CAP-TH_BD10.0-P5.00-D0.6-FD-A
+
+
+0
+2
+2
+linuxpocket
 DSBGA-9_L1.5-W1.5-R3-C3-P0.50-BL
 
 
@@ -97595,6 +97602,13 @@ HDMI-SMD_A71-05H4-111N1
 23
 linuxpocket
 IND-SMD_L4.4-W4.2
+
+
+0
+2
+2
+linuxpocket
+IND-SMD_L7.1-W6.6_SL0624
 
 
 0
@@ -97642,6 +97656,13 @@ SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL_3
 0
 6
 6
+linuxpocket
+SW-SMD_GT-TC020B-H035-L05
+
+
+0
+9
+4
 linuxpocket
 TMLP-18_L2.8-W2.0-P0.40-BL-EP
 
