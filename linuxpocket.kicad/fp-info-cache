@@ -1,4 +1,4 @@
-36252233343904
+39734265506701
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97671,6 +97671,13 @@ TMLP-18_L2.8-W2.0-P0.40-BL-EP
 19
 19
 linuxpocket
+Tooling Hole
+
+
+0
+0
+0
+linuxpocket
 USB-SMD_TYPE-C16PIN-1
 
 
@@ -97698,3 +97705,10 @@ WLCSP-9_L1.3-W1.2-R3-C3-P0.40-TL
 0
 9
 9
+linuxpocket
+xamuel
+
+
+0
+0
+0
