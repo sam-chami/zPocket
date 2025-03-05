@@ -6281,7 +6281,7 @@
 		)
 		(model "Documents/Projects/LinuxPocket/linuxpocket.kicad/linuxpocket.3dshapes/HDMI-SMD_A71-05H4-111N1.wrl"
 			(offset
-				(xyz 0 -0.8 1)
+				(xyz 0 -0.8 1.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -13498,7 +13498,7 @@
 		)
 		(model "Documents/Projects/LinuxPocket/linuxpocket.kicad/linuxpocket.3dshapes/SW-SMD_GT-TC020B-H035-L05.wrl"
 			(offset
-				(xyz 0 -0.55 0.5)
+				(xyz 0 -0.55 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -20512,7 +20512,7 @@
 		)
 		(model "Documents/Projects/LinuxPocket/linuxpocket.kicad/linuxpocket.3dshapes/SW-SMD_GT-TC020B-H035-L05.wrl"
 			(offset
-				(xyz 0 -0.55 0.5)
+				(xyz 0 -0.55 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -22316,7 +22316,7 @@
 		)
 		(model "Documents/Projects/LinuxPocket/linuxpocket.kicad/linuxpocket.3dshapes/SW-SMD_GT-TC020B-H035-L05.wrl"
 			(offset
-				(xyz 0 -0.55 0.5)
+				(xyz 0 -0.55 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -24734,7 +24734,7 @@
 		)
 		(model "Documents/Projects/LinuxPocket/linuxpocket.kicad/linuxpocket.3dshapes/USB-SMD_TYPE-C16PIN-1.wrl"
 			(offset
-				(xyz 0 -1.13 1.1)
+				(xyz 0 -1.13 0.1)
 			)
 			(scale
 				(xyz 1 1 1)
