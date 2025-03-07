@@ -108,7 +108,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(plot_on_all_layers_selection 0x0000100_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -117,7 +117,7 @@
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
-			(plotframeref no)
+			(plotframeref yes)
 			(viasonmask no)
 			(mode 1)
 			(useauxorigin no)
@@ -137,11 +137,11 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk no)
-			(outputformat 1)
+			(outputformat 4)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../img/")
 		)
 	)
 	(net 0 "")
@@ -10441,6 +10441,106 @@
 			(fill none)
 			(layer "Margin")
 			(uuid "7a0dc646-d873-4bcf-a481-a89665ce412c")
+		)
+	)
+	(footprint "MountingHole:MountingHole_2.7mm_M2.5"
+		(layer "F.Cu")
+		(uuid "586341ba-abc5-4e9c-9d2a-a0a14d1dfc63")
+		(at 102.15 95.9)
+		(descr "Mounting Hole 2.7mm, no annular, M2.5")
+		(tags "mounting hole 2.7mm no annular m2.5")
+		(property "Reference" "REF**"
+			(at 0 -3.7 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "255eedbf-67fb-434c-be9e-b8c85f071b78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.7mm_M2.5"
+			(at 0 3.7 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6565ff81-e9ed-46ae-9955-e62a86ed896f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93321c1b-a0be-4fb5-937b-d32eab6f24cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7523c9bc-02d1-4ff7-bdc9-272cc9107763")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08573f8a-cbe2-4b1a-842c-498040f2cb86")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.7 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "6dcb1f80-29bb-444e-b1e5-3509b091cdda")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.95 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "353775fa-acf4-46a0-9f73-4583a19e55f0")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.7 2.7)
+			(drill 2.7)
+			(layers "*.Cu" "*.Mask")
+			(uuid "6693036e-bad9-4581-8036-d9a0a0fbe391")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
@@ -31568,6 +31668,39 @@
 	(dimension
 		(type aligned)
 		(layer "Dwgs.User")
+		(uuid "20fbde70-661a-4ea6-8eb4-22ba5005de72")
+		(pts
+			(xy 128.1 161.5) (xy 131.9 161.5)
+		)
+		(height 5.8)
+		(gr_text "3,8000 mm"
+			(at 130 166.15 0)
+			(layer "Dwgs.User")
+			(uuid "20fbde70-661a-4ea6-8eb4-22ba5005de72")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
 		(uuid "356f2cbb-acac-4d1d-aa0f-d6668ce9529d")
 		(pts
 			(xy 48 33) (xy 132 33)
@@ -31577,6 +31710,72 @@
 			(at 90 22.85 0)
 			(layer "Dwgs.User")
 			(uuid "356f2cbb-acac-4d1d-aa0f-d6668ce9529d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "364a7ef2-63fa-4e31-b91c-39bfb67ecc5f")
+		(pts
+			(xy 128.1 161.5) (xy 128.1 165.3)
+		)
+		(height -6.8)
+		(gr_text "3,8000 mm"
+			(at 133.75 163.4 90)
+			(layer "Dwgs.User")
+			(uuid "364a7ef2-63fa-4e31-b91c-39bfb67ecc5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "4a4f0057-e411-4699-b579-a0f9ee7e6737")
+		(pts
+			(xy 128.1 163.1) (xy 128.1 165.325)
+		)
+		(height 3.25)
+		(gr_text "2,2250 mm"
+			(at 123.7 164.2125 90)
+			(layer "Dwgs.User")
+			(uuid "4a4f0057-e411-4699-b579-a0f9ee7e6737")
 			(effects
 				(font
 					(size 1 1)
@@ -55232,7 +55431,7 @@
 				(xy 111.418993 144.0995) (xy 111.389882 144.0995) (xy 102.526278 144.0995) (xy 102.459239 144.079815)
 				(xy 102.413484 144.027011) (xy 102.40354 143.957853) (xy 102.432565 143.894297) (xy 102.438597 143.887819)
 				(xy 103.584958 142.741459) (xy 104.919598 141.406819) (xy 104.980921 141.373334) (xy 105.007279 141.3705)
-				(xy 113.146194 141.3705) (xy 116.4555 141.3705)
+				(xy 113.146194 141.3705) (xy 113.253806 141.3705) (xy 116.4555 141.3705)
 			)
 		)
 		(filled_polygon
