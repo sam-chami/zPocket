@@ -15,4 +15,10 @@ The zPocket is a modular, portable Linux device with a square touchscreen as wel
 - Battery Charging and Gauge
 - Open Hardware
 
+## Assembly Render
+Front                                                   |  Back
+:------------------------------------------------------:|:--------------------------------------:
+![Front of the zPocket inside the case](img/front.png)  |  ![Back of the zPocket.](img/back.png)
+
+## PCB
 ![Front of zPocket PCB](img/zPocket_pi.jpg)
