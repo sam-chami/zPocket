@@ -2,7 +2,7 @@
 
 > WIP
 
-The zPocket is a modular, portable Linux device with a square touchscreen as well as keyboard for input. The modularity allows you to use it as a Cyberdeck, Phone, or even satellite communicator.
+The zPocket is a modular, handheld portable Linux device with a square touchscreen as well as keyboard for input. The modularity allows you to use it as a Cyberdeck, Phone, or even satellite communicator.
 
 ## Significant features:
 - Touchscreen 720x720 panel
