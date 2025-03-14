@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "linuxpocket")(type "KiCad")(uri "${KIPRJMOD}/linuxpocket.pretty")(options "")(descr ""))
   (lib (name "linuxpocket.3dshapes")(type "KiCad")(uri "${KIPRJMOD}/linuxpocket.3dshapes")(options "")(descr ""))
+  (lib (name "OSHW_Certification_Mark")(type "KiCad")(uri "/home/samuel/.local/share/kicad/8.0/footprints/OSHW_Certification_Mark.pretty")(options "")(descr ""))
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "/home/samuel/Documents/Kicad/easyeda2kicad.pretty")(options "")(descr ""))
 )
