@@ -1,6 +1,8 @@
 # zPocket
-
 > WIP
+
+[![certification-mark-ES000051-wide](https://github.com/user-attachments/assets/6936cbdf-cffa-4ecb-a3e7-2ef7216d674e)](https://certification.oshwa.org/es000051.html)
+
 
 The zPocket is a modular, handheld portable Linux device with a square touchscreen as well as keyboard for input. The modularity allows you to use it as a Cyberdeck, Phone, or even satellite communicator.
 
@@ -9,11 +11,9 @@ The zPocket is a modular, handheld portable Linux device with a square touchscre
 - Blackberry Q10 Keyboard
 - Raspberry Pi Compute Module 5
 - Mini PCIe connector
-- USB-C Dual-role Port
-- Mini HDMI display output
+- USB-C Dual-role Port and mini HDMI
 - Magnetometer (Compass)
 - Battery Charging and Gauge
-- Open Hardware
 
 ## Assembly Render
 Front                                                   |  Back
