@@ -22,3 +22,9 @@ Front                                                   |  Back
 
 ## PCB
 ![Front of zPocket PCB](img/zPocket_pi.jpg)
+
+## Documentation
+The documentation is available in [this repository's wiki page](https://github.com/sam-chami/zPocket/wiki)
+
+## License
+The zPocket hardware has a "CERN Open Hardware Licence Version 2 - Strongly Reciprocal".
